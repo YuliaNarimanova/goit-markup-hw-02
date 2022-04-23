@@ -1,0 +1,123 @@
+
+/* Переменные */
+:root {
+--accent-color: #2196F3;
+}
+
+
+/*Скидываем общие настройки*/
+
+.link {
+    text-decoration: none;
+  }
+
+.list {
+    list-style: none;
+}
+
+/*Общие настройки*/
+body {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+color: #212121;
+}
+
+/*Оформление лого*/
+.logo-link {
+font-family: 'Raleway';
+font-weight: 700;
+color: var(--accent-color); 
+}
+.logo-header {
+color: #000000;
+}
+.logo-footer {
+color: #FFFFFF;
+}
+
+/*Оформление шапки*/
+
+.menu-link {
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.menu-link:hover, 
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.contact-namber .link {
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.contact-namber .link:hover,
+.contact-namber .link:focus {
+    color: var(--accent-color);
+}
+
+/*Оформление навигации */
+.navigation-btn {
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+background-color: var(--accent-color);
+color: #F5F4FA;
+cursor: pointer;
+}
+
+/*Примеры работ*/
+.employees-name{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121; 
+}
+
+.employees-position{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+
+/*Оформление футера*/
+.contact-adress-footer {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.contact-namber-footer {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-namber-footer:hover,
+.contact-namber-footer:focus {
+    color:var(--accent-color);
+}
+.contact-adress-footer:hover,
+.contact-adress-footer:focus {
+    color: var(--accent-color);
+}
