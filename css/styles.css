@@ -45,13 +45,14 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: var(--logo-color-footer);
+background-color: var(--accent-color);
 }
 
-.hero-btn-main:hover,
+/*.hero-btn-main:hover,
 .hero-btn-main:focus{
 background-color: var(--accent-color);
 color: var(--btn-color);
-}
+}*/
 
 .hero-title{
 font-weight: 900;
@@ -75,6 +76,9 @@ letter-spacing: 0.03em;
 .logo-link {
 font-family: 'Raleway';
 font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 color: var(--accent-color); 
 }
 
@@ -123,6 +127,7 @@ font-weight: inherit;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
+background: var(--btn-color);
 cursor: pointer;
 }
 
@@ -165,10 +170,12 @@ color: var(--contact-namber-color);
 }
 
 /*Наша команда*/
-.item-info {
-font-weight: 500;
+.about-item-info {
+font-weight: 400;
+font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
+color: #212121;
 }
 .about-item-work {
 font-weight: 400;
